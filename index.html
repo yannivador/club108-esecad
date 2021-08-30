@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Devoir 1 : HTML CSS Expert</title>
+	<link href="styles.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+	<div id="wrapper" class="grid-container">
+			<header class="main-header">
+                <img src="img/logo.png">
+				<h1>La passion des films</h1>
+			</header>
+
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#">Programme</a></li>
+					<li><a href="#">Actualités</a></li>
+					<li><a href="#">Jeune public</a></li>
+					<li><a href="#">Tarifs</a></li>
+					<li><a href="#">Accès</a></li> 
+				</ul>
+                <form>
+                    <input type="text" placeholder="rechercher" />
+                </form>
+			</nav>
+			
+			<main>
+				<section class="grid span-row-3">
+                    <header class="header-grid">
+                        <h1>La Une</h1>
+                    </header>
+                    <picture>
+                        <source media="(max-width: 620px)" srcset="img/une-620.jpg">
+                        <source media="(min-width: 939px)" srcset="img/une-940.jpg">
+                        <img src="img/une-940.jpg" 
+                        sizes="100vw" 
+                        alt="La une"
+                        >
+                    <picture>
+                    <div id="container-text">
+                        <h1>Ad officia officia</h1>
+                        <p>
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam.
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam. Incididunt
+                            commodo amet proident voluptate amet id in dolor voluptate laboris
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam.
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam. Incididunt
+                            commodo amet proident voluptate amet id in dolor voluptate laboris
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam.
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate laboris enim veniam. Incididunt
+                            commodo amet proident voluptate amet id in dolor voluptate laboris 
+                            enim veniam.<a href="#" class="lire-suite">Lire la suite</a>
+                        </p>
+                    </div>
+					
+                    <div class="container-button">
+                        <a href="#">Réserver</a>
+                        <a href="#">Commander l'affiche</a>
+                    </div>
+				</section>
+				<section class="grid">
+                    <header class="header-grid">
+                        <h1>Horaires</h1>
+                    </header>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Heure</th>
+                                <th>Film</th>
+                                <th>Salle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12h</td>
+                                <td>Tommy</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>14h</td>
+                                <td>In the Wood</td>
+                                <td>1</td>
+                            </tr>
+                          <tr>
+                              <td>14h</td>
+                              <td>Le chien perdu</td>
+                              <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>18h</td>
+                                <td>Lavoir et les siens</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>18h</td>
+                                <td>Truqueur sur gage</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="grid">
+                    <header class="header-grid">
+                        <h1>Adresse</h1>
+                    </header>
+                    <p>
+                        <span id="nom-club">Le Club 138</span><br>
+                        <span id="adresse">118, rue du Club - 18100 Ouhytes</span>
+                    </p>
+                </section>
+                <section class="grid">
+                    <header class="header-grid">
+                        <h1>Portfolio</h1>
+                    </header>
+                    <!-- <img src="img/portfolio.jpg"/> -->
+                    <figure class="portfolio">
+                        <picture>
+                            <source media="(max-width: 620px)" srcset="img/portfolio-620.jpg">
+                            <source media="(min-width: 939px)" srcset="img/portfolio-940.jpg">
+                            <img src="img/portfolio-940.jpg" 
+                            sizes="100vw" 
+                            alt="Article 1"
+                            >
+                        </picture>
+                        <figcaption>
+                            <a href="#">Regarder</a>
+                        </figcaption>
+                    </figure>
+                </section>
+			</main>
+            <aside class="aside">
+                <header class="header-grid">
+                    <h1>Articles</h1>
+                </header>
+                <div class="articles">
+                    <article>
+                        <figure>
+                            <picture>
+                                <source media="(max-width: 620px)" srcset="img/article1-620.jpg">
+                                <source media="(min-width: 939px)" srcset="img/article1-940.jpg">
+                                <img src="img/article1-940.jpg" 
+                                sizes="100vw" 
+                                alt="Article 1"
+                                >
+                            <picture>
+                        </figure>
+                        <h1>Lorem ipsum duis eiusmod</h1>
+                        <p>
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate 
+                            <a href="#" class="lire-suite">Lire la suite</a>
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <picture>
+                                <source media="(max-width: 620px)" srcset="img/une-620.jpg">
+                                <source media="(min-width: 939px)" srcset="img/une-940.jpg">
+                                <img src="img/une-940.jpg" 
+                                sizes="100vw" 
+                                alt="La une"
+                                >
+                            <picture>
+                        </figure>
+                        <h1>Lorem ipsum duis eiusmod</h1>
+                        <p>
+                            Incididunt commodo amet proident voluptate amet id in dolor 
+                            voluptate laboris enim veniam. Incididunt commodo amet proident 
+                            voluptate amet id in dolor voluptate 
+                            <a href="#" class="lire-suite">Lire la suite</a>
+                        </p>
+                    </article>
+                </div>
+            </aside>
+			<footer>
+				<ul class="footer-nav">
+					<li><a href="#">CLUB 108</a></li>
+					<li><a href="#">Carte club</a></li>
+					<li><a href="#">Scéances privées</a></li>
+					<li><a href="#">Tarifs et horaire</a></li>
+					<li><a href="#">Jobs étudiants</a></li>
+					<li><a href="#">Parking et accès</a></li>
+					<li><a href="#">A proximité</a></li>
+					<li><a href="#">Espace partenaire</a></li>
+					<li><a href="#">Carte club</a></li>
+					<li><a href="#">Scéances privées</a></li>
+                    <li><a href="#">Tarifs et horaire</a></li>
+					<li><a href="#">Jobs étudiants</a></li>
+					<li><a href="#">Parking et accès</a></li>
+					<li><a href="#">A proximité</a></li>
+					<li><a href="#">Espace partenaire</a></li>
+				</ul>
+			</footer>
+		</div>
+		
+
+
+	</body>
+	</html>
